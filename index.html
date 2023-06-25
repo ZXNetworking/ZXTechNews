@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZXTechNews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightgrey;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: blue;
+            padding: 20px;
+            color: white;
+        }
+
+        nav {
+            background-color: lightcyan;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: lightgrey;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .newsletter-form {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .newsletter-form input[type="email"] {
+            padding: 10px;
+            width: 300px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .newsletter-form input[type="submit"] {
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ZXTechNews</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="articlepage.html">Articles</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>ZXTechNews The Latest Tech News Website</h2>
+        <p>Stay updated with our latest technology news and trends.</p>
+    </section>
+
+    <section>
+        <h2>Featured Article</h2>
+        <article class="featured-article">
+            <h3>MIUI 15 Realease Date</h3>
+            <img src="image/MIUI 15 Thumbnail.jpeg" alt="MIUI 15 Thumbnail" title="MIUI 15 Thumbnail" height="300" width="500">
+            <p>Xiaomi has officialy confirm it's latest MIUI software release date. here is the full article.</p>
+            <a href="miui15releasedate.html">Read More</a>
+        </article>
+    </section>
+    <section>
+        <h2>Featured Article</h2>
+        <article class="featured-article">
+            <h3>List of Devices that may get MIUI 15 Update</h3>
+            <img src="image/Xiaomi_Smartphones_2023.jpg" alt="Xiaomi Phones" title="Xiaomi Phones" height="300">
+            <p>Here are the list of phone that may get MIUI 15. Here is the full article.</p>
+            <a href="article.html">Read More</a>
+        </article>
+    </section>
+
+    </section>
+    <section class="newsletter-section">
+        <h1>Subscribe to our Newsletter</h1>
+        <p>Get the latest tech news delivered to your inbox.</p>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <input type="submit" value="Subscribe">
+        </form>
+    </section>
+     <!-- Footer -->
+     <footer>
+        <!-- Your footer content goes here -->
+        <p>&copy; 2023 ZXTechNews. All rights reserved.</p>
+    </footer>
+</body>
+</html>

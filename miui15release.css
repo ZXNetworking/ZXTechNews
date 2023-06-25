@@ -1,0 +1,56 @@
+.homepage-header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+.homepage-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.homepage-header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.homepage-header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.homepage-header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles for the article page */
+
+.article-section {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: justify;
+}
+
+.article-section h1 {
+    color: black;
+}
+
+.article-section p {
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* Shared styles */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
